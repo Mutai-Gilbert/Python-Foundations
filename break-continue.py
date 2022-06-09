@@ -2,8 +2,8 @@ manifest = [("bananas", 15), ("mattresses", 24), ("dog kennels", 42), ("machine"
 
 # the code breaks the loop when weight exceeds or reaches the limit
 print("METHOD 1")
-weight = 0
-items = []
+weight = 0 # setting the value of weight as zero
+items = [] # array the manifest
 for cargo_name, cargo_weight in manifest:
     print("current weight: {}".format(weight))
     if weight >= 100:
